@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('fetch code') {
     steps {
-       git branch: 'paac', url: 'https://github.com/devopshydclub/vprofile-project.git'
+       git branch: 'paac', url: 'https://github.com/kyorbor22/vprofile-project.git'
     }
    }
    stage('Build') {
