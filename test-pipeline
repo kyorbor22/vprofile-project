@@ -6,7 +6,7 @@ pipeline{
        git branch: 'paac', url: 'https://github.com/kyorbor22/vprofile-project.git'
     }
    }
-   stage('BUild') {
+   stage('Build') {
       steps {
         sh 'mvn install'
       }
